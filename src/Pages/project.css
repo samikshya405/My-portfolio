@@ -1,0 +1,27 @@
+.hover-box {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: #3498db;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+  .hover-box:hover .centered-button {
+    transform: scale(1);
+    opacity: 1;
+  }
+  
+  .centered-button {
+    position: absolute;
+    transform: scale(0);
+    opacity: 0;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  }
+  
+  .hover-box.hovered .centered-button {
+    transform: scale(1);
+    opacity: 1;
+  }

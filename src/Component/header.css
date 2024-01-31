@@ -1,0 +1,11 @@
+.menu{
+    color: white !important;
+    font-weight: bold;
+    font-size: 18px;
+}
+.menu:hover{
+    color: var(--btn-color) !important;
+}
+.nav-menu{
+    background-color: var(--primary-color);
+}

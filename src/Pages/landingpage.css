@@ -1,0 +1,12 @@
+.landing{
+    width: 100%;
+    min-height:90vh ;
+    /* background-image: url('https://images.pexels.com/photos/777001/pexels-photo-777001.jpeg?auto=compress&cs=tinysrgb&w=800');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    position: relative; */
+    /* position: fixed; */
+    background-color: var(--primary-color);
+
+}
