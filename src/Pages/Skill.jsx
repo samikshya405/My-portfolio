@@ -9,9 +9,9 @@ const Skill = () => {
   return (
     <Container className='text-light skills' id='skill'>
         <h1 className='custom-color text-center pb-4'>My Top Skills</h1>
-        <div className='d-flex flex-wrap gap-5 justify-content-center '>
+        <div className='skill-box '>
           <div>
-          <div className=' p-4 shadow-lg box'>
+          <div className=' text-center py-4 shadow-lg box'>
           <FaHtml5 size={60} color="#d45d3d"/>
 
           </div>
@@ -19,7 +19,7 @@ const Skill = () => {
 
           </div>
           <div>
-          <div className=' p-4 shadow-lg box'>
+          <div className=' py-4 shadow-lg box'>
           <FaCss3Alt size={60} color="#2d53e5"/>
 
           </div>
@@ -27,7 +27,7 @@ const Skill = () => {
 
           </div>
           <div>
-          <div className=' p-4 shadow-lg box'>
+          <div className=' py-4 shadow-lg box'>
           <IoLogoJavascript size={60} color="yellow"/>
 
           </div>
@@ -35,7 +35,7 @@ const Skill = () => {
 
           </div>
           <div>
-          <div className=' p-4 shadow-lg box'>
+          <div className=' py-4 shadow-lg box'>
           <FaReact size={60} color="blue"/>
 
           </div>
@@ -43,7 +43,7 @@ const Skill = () => {
 
           </div>
           <div>
-          <div className=' p-4 shadow-lg box'>
+          <div className=' py-4 shadow-lg box'>
           <SiRedux size={60} color='purple'/>
 
           </div>
@@ -51,7 +51,7 @@ const Skill = () => {
 
           </div>
           <div>
-          <div className=' p-4 shadow-lg box'>
+          <div className=' py-4 shadow-lg box'>
           <IoLogoFirebase size={60} color='yellow'/>
 
           </div>
@@ -59,7 +59,7 @@ const Skill = () => {
 
           </div>
           <div>
-          <div className=' p-4 shadow-lg box'>
+          <div className=' py-4 shadow-lg box'>
           <FaBootstrap size={60} color='blueviolet'/>
 
           </div>
@@ -67,7 +67,7 @@ const Skill = () => {
 
           </div>
           <div>
-          <div className=' p-4 shadow-lg box'>
+          <div className=' py-4 shadow-lg box'>
           <FaSass size={60} color='#cf6499'/>
 
           </div>
@@ -75,7 +75,7 @@ const Skill = () => {
 
           </div>
           <div>
-          <div className=' p-4 shadow-lg box'>
+          <div className=' py-4 shadow-lg box'>
           <FaGitAlt size={60} color='#f05233'/>
 
           </div>
@@ -84,7 +84,7 @@ const Skill = () => {
           </div>
           
           <div>
-          <div className=' p-4 shadow-lg box'>
+          <div className=' py-4 shadow-lg box'>
           <SiTypescript size={60} color='#387cc8'/>
 
           </div>
@@ -92,7 +92,7 @@ const Skill = () => {
 
           </div>
           <div>
-          <div  className=' p-4 shadow-lg box'>
+          <div  className=' py-4 shadow-lg box'>
           <IoBug size={60} color='blue'/>
 
           </div>
@@ -100,7 +100,7 @@ const Skill = () => {
 
           </div>
           <div>
-          <div  className=' p-4 shadow-lg  box'>
+          <div  className=' py-4 shadow-lg  box'>
           <TbSeo size={60} color='#2dbbdc'/>
 
           </div>
@@ -108,7 +108,7 @@ const Skill = () => {
 
           </div>
           <div>
-          <div  className=' p-4 shadow-lg  box'>
+          <div  className=' py-4 shadow-lg  box'>
           <SiTailwindcss size={60} color='#41bff8'/>
 
           </div>
