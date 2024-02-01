@@ -1,8 +1,11 @@
+.project{
+  min-height: 70vh;
+}
 .hover-box {
     position: relative;
-    width: 200px;
+    /* width: 200px; */
     height: 200px;
-    background-color: #3498db;
+    /* background-color: #3498db; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,3 +28,46 @@
     transform: scale(1);
     opacity: 1;
   }
+  .projects-card{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    justify-content: space-between;
+  }
+  .projects-card div{
+    
+    height: 400px;
+    max-width: 300px;
+   
+   
+    
+  }
+  @media screen and (max-width:992px){
+    .projects-card{
+      grid-template-columns: repeat(3,1fr);
+    }
+    
+  }
+  @media screen and (max-width:768px){
+    .projects-card{
+      grid-template-columns: repeat(2,1fr);
+    }
+    
+  }
+  @media screen and (max-width:567px){
+    .projects-card{
+      grid-template-columns: 1fr;
+      
+      
+      
+    }
+    .projects-card div{
+      max-width: 100%;
+      margin: 30px;
+    }
+    
+    
+  }
+  
+
+ 

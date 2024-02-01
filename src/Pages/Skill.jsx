@@ -7,8 +7,8 @@ import { SiRedux, SiTailwindcss, SiTestinglibrary, SiTypescript } from "react-ic
 import { TbSeo } from "react-icons/tb";
 const Skill = () => {
   return (
-    <Container className='text-light skills' id='skill'>
-        <h1 className='custom-color text-center pb-4'>My Top Skills</h1>
+    <Container className='text-light skills ' id='skill'>
+        <h1 className='custom-color text-center  py-5 mb-5'>My Top Skills</h1>
         <div className='skill-box '>
           <div>
           <div className=' text-center py-4 shadow-lg box'>

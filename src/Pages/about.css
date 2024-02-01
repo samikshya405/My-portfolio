@@ -4,10 +4,13 @@
 }
 .about-img{
     width: 50%;
+    text-align: center;
     /* background-color: green; */
 }
 .about-img img{
     width: 100%;
+    max-width: 300px;
+    /* background-color: red; */
    
     
     
@@ -16,7 +19,7 @@
 }
 .about-content{
     width: 50%;
-    /* background-color: red; */
+    
    
 
 }
@@ -33,11 +36,13 @@
 
     }
     .about-img{
-        width: 100%;
+        width: 80%;
         /* background-color: green; */
     }
     .about-content{
         width: 100%;
+        
+        
     }
     .about-content h2{
         text-align: center;
