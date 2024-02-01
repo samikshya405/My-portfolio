@@ -5,6 +5,7 @@ import Header from './Component/Header'
 import Project from './Pages/Project'
 import Skill from './Pages/Skill'
 import Contact from './Pages/Contact'
+import Footer from './Pages/Footer'
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <Skill/>
       <Project/>
       <Contact/>
+      <Footer/>
     </div>
   )
 }

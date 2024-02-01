@@ -18,14 +18,14 @@ const Banner = () => {
                     
                 </div>
                 <div className='d-flex gap-4 mt-4 info'>
-                  <a href=''>
+                  <a href='https://www.linkedin.com/in/samikshya-kharel-76197a1a0/' target='_blank'>
                   <Linkedin size={40} color="#0b66c2" />
                   </a>
-                  <a href=''>
+                  <a href='https://github.com/samikshya405' target='_blank'>
                   <Github size={40} color='white'/>
                   </a>
                   <a href='mailto: Samikshyakharel405@gmail.com'>
-                    <Envelope size={40} color='orange'/>
+                    <Envelope size={40} color='#0b66c2'/>
                   </a>
                 
                 
