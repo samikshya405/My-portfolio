@@ -6,6 +6,7 @@ import Project from './Pages/Project'
 import Skill from './Pages/Skill'
 import Contact from './Pages/Contact'
 import Footer from './Pages/Footer'
+import AcademicBackground from './Pages/AcademicBackground'
 
 const App = () => {
   return (
@@ -13,9 +14,11 @@ const App = () => {
       <Header/>
 
       <Landingpage/>
-      <About/>
+      
       <Skill/>
       <Project/>
+      <AcademicBackground/>
+      <About/>
       <Contact/>
       <Footer/>
     </div>

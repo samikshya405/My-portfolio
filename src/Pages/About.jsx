@@ -6,7 +6,7 @@ const About = () => {
   return (
     <Container>
     <div className="container-sec text-light " id="about">
-    <div className="about  d-flex justify-content-between align-items-center  gap-5  my-3" >
+    <div className="about  d-flex justify-content-between align-items-center  gap-5 py-5 my-5" >
         <div className="about-img ">
             <img src={cartoon} alt=""/>
            

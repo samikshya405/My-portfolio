@@ -13,7 +13,7 @@ const Banner = () => {
     <h1>I'm a Frontend developer</h1>
                 <p>I'm a dedicated frontend developer on a mission to create seamless and visually stunning web experiences.</p>
                 <div className=' info '>
-                    <button>Download CV <Download/></button>
+                    <button>Check My CV</button>
                     
                     
                 </div>
