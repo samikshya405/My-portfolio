@@ -10,7 +10,7 @@ const Header = () => {
   return (
     <Navbar expand="lg" variant='dark' className='sticky-top nav-menu'  expanded={expanded}  >
       <Container>
-        <Navbar.Brand href="#home" className='custom-color'>Samikshya</Navbar.Brand>
+        <Navbar.Brand href="#home" className='custom-color'>&lt;Samikshya/&gt;</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={handleNavbarToggle} />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto " >

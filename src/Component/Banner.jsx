@@ -10,7 +10,7 @@ const Banner = () => {
         <div className='d-flex align-items-center justify-content-center gap-5   banner'>
             <div className='d-flex flex-column gap-3 content'>
                 <h3 className='custom-color'>Hello !</h3>
-    <h1>I'm a Frontend developer</h1>
+    <h1>I'm a Samikshya Kharel</h1>
                 <p>I'm a dedicated frontend developer on a mission to create seamless and visually stunning web experiences.</p>
                 <div className=' info '>
                     <button>Check My CV</button>
