@@ -9,7 +9,7 @@ const AcademicBackground = () => {
         <h1 className='text-center custom-color py-5 my-5'>Academic Background</h1>
         <VerticalTimeline className='custom-vertical-timeline'>
   <VerticalTimelineElement
-    className="vertical-timeline-element--work "
+    className="vertical-timeline-element--work  "
     contentStyle={{ background: '#222c32' }}
     contentArrowStyle={{ borderRight: '7px solid  #f95654' }}
     date="2023-2025"
@@ -19,7 +19,7 @@ const AcademicBackground = () => {
     <h3 className="vertical-timeline-element-title">Bachelor in IT</h3>
     <h5 className="vertical-timeline-element-subtitle text-secondary"  >Asia Pacific International College</h5>
     <br />
-    <ul>
+    <ul className='list-unstyled'>
         <li>
         Currently pursuing a Bachelor's degree in Information Technology, gaining comprehensive knowledge in various IT domains.(Set to graduate in 2025)        </li>
         <br />
@@ -41,7 +41,7 @@ const AcademicBackground = () => {
   
   
   <VerticalTimelineElement
-    className="vertical-timeline-element--education"
+    className="vertical-timeline-element--education "
     date="October 2023 - Jan 2024"
     
     contentStyle={{ background: '#222c32' }}
@@ -51,7 +51,7 @@ const AcademicBackground = () => {
     <h3 className="vertical-timeline-element-title">Frontend Development</h3>
     <h5 className="vertical-timeline-element-subtitle text-secondary"> Dented Code Academy</h5>
     <br />
-    <ul>
+    <ul className='list-unstyled'>
         <li>
         Successfully completed a front-end development coding bootcamp, gaining intensive and hands-on experience in web development.
 

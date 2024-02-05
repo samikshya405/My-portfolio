@@ -5,7 +5,7 @@ import { FaRegCopyright } from "react-icons/fa";
 const Footer = () => {
   return (
     <Container className='text-light shadow-lg'>
-        <div className='text-center p-5 '><FaRegCopyright/>Copyright 2024. Made by Samikshya Kharel</div> 
+        <div className='text-center p-4 '><FaRegCopyright/>Copyright 2024. Made by Samikshya Kharel</div> 
     </Container>
   )
 }
