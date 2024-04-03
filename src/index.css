@@ -20,3 +20,10 @@
   min-height: 70vh;
   
 }
+.toggle {
+  color: var(--btn-color);
+}
+a{
+  text-decoration: none;
+  color: black;
+}

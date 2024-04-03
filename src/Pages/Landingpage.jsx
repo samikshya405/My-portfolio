@@ -4,9 +4,9 @@ import './landingpage.css'
 import { Container } from 'react-bootstrap'
 import Banner from '../Component/Banner'
 
-const Landingpage = () => {
+const Landingpage = ({ brightNess }) => {
   return (
-    <div className='landing text-light' id='home' >
+    <div className='landing ' style={{color: brightNess ? 'black':'white' }} id='home' >
         
         
         <Container  >

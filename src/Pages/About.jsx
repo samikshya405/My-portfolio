@@ -2,10 +2,10 @@ import React from 'react'
 import './about.css'
 import { Container } from 'react-bootstrap'
 import cartoon from '../assets/cartoon.png'
-const About = () => {
+const About = ({brightNess}) => {
   return (
     <Container>
-    <div className="container-sec text-light " id="about">
+    <div className="container-sec  " style={{color:brightNess ? 'black':'white'}} id="about">
     <div className="about  d-flex justify-content-between align-items-center  gap-5 py-5 my-5" >
         <div className="about-img ">
             <img src={cartoon} alt=""/>

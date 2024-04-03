@@ -5,9 +5,9 @@ import { FaHtml5,FaCss3Alt, FaReact, FaBootstrap ,FaSass, FaGitAlt  } from "reac
 import { IoLogoJavascript, IoLogoFirebase, IoBug  } from "react-icons/io5";
 import { SiRedux, SiTailwindcss, SiTestinglibrary, SiTypescript } from "react-icons/si";
 import { TbSeo } from "react-icons/tb";
-const Skill = () => {
+const Skill = ({brightNess}) => {
   return (
-    <Container className='text-light skills ' id='skill'>
+    <Container className='skills ' style={{color:brightNess ? "black":'white'}} id='skill'>
         <h1 className='custom-color text-center  py-5 mb-5'>My Top Skills</h1>
         <div className='skill-box '>
           <div>
