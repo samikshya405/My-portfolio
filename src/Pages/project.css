@@ -4,7 +4,9 @@
 .projectContainer{
   display: flex;
   flex-direction: column;
-  gap: 100px;
+  gap: 150px;
+  max-width: 1000px;
+  margin: auto;
 }
 .projectSection1,.projectSection2{
   display: flex;
@@ -15,7 +17,7 @@
   flex-basis: 40%;
 }
 .description{
-  flex-basis: 55%;
+  flex-basis: 50%;
 
 }
 

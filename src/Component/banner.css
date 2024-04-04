@@ -1,9 +1,13 @@
+.top{
+  max-width: 1000px;
+  margin: auto;
+}
 .banner {
   width: 100%;
   min-height: 80vh;
 }
 .content {
-  max-width: 500px;
+  /* max-width: 600px; */
   flex-basis: 50%;
   z-index: 99;
 }

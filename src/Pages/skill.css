@@ -10,6 +10,8 @@
     display: grid;
     grid-template-columns: repeat(7,1fr);
     gap: 20px;
+    max-width: 1000px;
+  margin: auto;
   }
   @media screen and (max-width:992px){
    .skill-box{

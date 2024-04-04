@@ -12,6 +12,7 @@ const AcademicBackground = ({brightNess}) => {
       <h1 className="text-center custom-color py-5 my-5">
         Academic Background
       </h1>
+      <div className="academic-box">
       <VerticalTimeline className="custom-vertical-timeline">
         <VerticalTimelineElement
           className="vertical-timeline-element--work  "
@@ -57,21 +58,7 @@ const AcademicBackground = ({brightNess}) => {
               Acquiring proficiency in Java, a versatile and widely-used
               programming language.
             </li>
-            {/* <br />
-            <li>
-              Studying enterprise architecture to understand how IT components
-              align with business goals and strategies.
-            </li>
-            <br />
-            <li>
-              Gaining an understanding of ethical decision-making, privacy
-              concerns, and responsible use of technology.
-            </li>{" "}
-            <br />
-            <li>
-              Collaborating with peers to develop real-world solutions,
-              emphasizing teamwork and problem-solving skills.
-            </li> */}
+            
           </ul>
         </VerticalTimelineElement>
 
@@ -120,20 +107,11 @@ const AcademicBackground = ({brightNess}) => {
               Developed expertise in React.js, a popular JavaScript library for
               building user interfaces.
             </li>
-            {/* <br />
-            <li>
-              Implemented state management using Redux, enhancing the efficiency
-              of handling application state in complex React applications.
-            </li>
-            <br />
-            <li>
-              Completed a series of hands-on projects to reinforce learning and
-              demonstrate practical application of front-end development
-              concepts.
-            </li> */}
+           
           </ul>
         </VerticalTimelineElement>
       </VerticalTimeline>
+      </div>
     </Container>
   );
 };

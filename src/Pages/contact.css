@@ -5,6 +5,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
+    max-width: 1000px;
+    margin: auto;
 }
 .contact-box a{
    text-align: center;
