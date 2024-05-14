@@ -6,7 +6,7 @@ import admin from "../assets/ecom-admin.png";
 import movie from "../assets/movie.png";
 import expensestracker from "../assets/expensestracker.png"
 const Project = ({ brightNess }) => {
-  const [isHovered, setHovered] = useState(false);
+
   return (
     <Container
       className=" project"
