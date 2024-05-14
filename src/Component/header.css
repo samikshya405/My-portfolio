@@ -4,8 +4,15 @@
     font-size: 18px;
 
 }
+.navLight{
+    border-color: black !important;
+    color: black !important;
+
+}
+
 .lightMode{
     color: black !important;
+    
     
 }
 .darkMode{

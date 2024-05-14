@@ -4,7 +4,7 @@ import "./project.css";
 import client from "../assets/ecom-client.png";
 import admin from "../assets/ecom-admin.png";
 import movie from "../assets/movie.png";
-import restaurant from "../assets/restaurant.png";
+import expensestracker from "../assets/expensestracker.png"
 const Project = ({ brightNess }) => {
   const [isHovered, setHovered] = useState(false);
   return (
@@ -91,7 +91,7 @@ const Project = ({ brightNess }) => {
               <div>
                 Live Demo{" "}
                 <a
-                  href="https://onestoptreasureadmin.vercel.app/"
+                  href="https://fashionadmin.vercel.app/"
                   target="_blank"
                   style={{ color: "inherit", fontSize: "25px" }}
                 >
@@ -153,25 +153,27 @@ const Project = ({ brightNess }) => {
 
         <div className="projectSection2 px-4">
           <div className="description d-flex flex-column gap-4">
-            <h5 className="fw-bold text-center">OAK</h5>
+            <h5 className="fw-bold text-center">CashFlow Tracker</h5>
             <p className="text-center" style={{ margin: 0 }}>
-              The Oak Restaurant Web Application is a sophisticated online
-              platform designed to enhance the dining experience for patrons of
-              Oak Restaurant. With its elegant design, intuitive interface, and
-              robust features, the Oak Restaurant Web App offers users a
-              seamless way to explore the restaurant's menu, make reservations,
-              order food for dine-in or takeout, and more.
+              A MERN stack-powered application for tracking financial
+              transactions. In the transaction app, users can log their
+              financial activities by categorizing them into two types: income
+              and expenses. By selecting the appropriate type for each
+              transaction, users can maintain an accurate record of their
+              financial inflows and outflows.
             </p>
             <div className="fw-bold d-flex gap-3 flex-nowrap justify-content-center">
-              <div>HTML</div>
-              <div>CSS</div>
+              <div>MongoDB</div>
+              <div>Express</div>
+              <div>React</div>
+              <div>Node JS</div>
             </div>
 
             <div className="d-flex justify-content-center gap-4 ">
               <div>
                 Code{" "}
                 <a
-                  href="https://github.com/samikshya405/oak-restaurant-website.git"
+                  href="https://github.com/samikshya405/Trans-client"
                   target="_blank"
                   style={{ color: "inherit", fontSize: "25px" }}
                 >
@@ -181,7 +183,7 @@ const Project = ({ brightNess }) => {
               <div>
                 Live Demo{" "}
                 <a
-                  href="https://oak-restaurant-website.vercel.app/"
+                  href="https://expenestracker.vercel.app/"
                   target="_blank"
                   style={{ color: "inherit", fontSize: "25px" }}
                 >
@@ -191,7 +193,7 @@ const Project = ({ brightNess }) => {
             </div>
           </div>
           <div className="img d-flex justify-content-center align-items-center">
-            <img width={"100%"} src={restaurant} alt="" />
+            <img width={"100%"} className="shadow-lg" src={expensestracker} alt="" />
           </div>
         </div>
       </div>

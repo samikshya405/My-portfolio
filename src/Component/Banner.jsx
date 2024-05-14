@@ -8,13 +8,13 @@ const Banner = () => {
   return (
     <div className="top">
       <div className="d-flex align-items-center justify-content-between  banner">
-        <div className="d-flex flex-column gap-3 content" >
+        <div className="d-flex flex-column gap-3 content">
           {/* <h3 className="custom-color">Hello !</h3> */}
-          <h1 >Front-end React Developer</h1>
+          <h1>Front-end React Developer</h1>
 
           <p>
-            I'm a Samikshya Kharel. A dedicated frontend developer on a mission to create seamless
-            and visually stunning web experiences.
+            I'm a Samikshya Kharel. A dedicated frontend developer on a mission
+            to create seamless and visually stunning web experiences.
           </p>
           {/* <div className=" info ">
             <button>Check My CV</button>
@@ -35,7 +35,7 @@ const Banner = () => {
           </div>
         </div>
         <div className="img-container">
-          <img src={img1} alt="my-image" />
+          {/* <img src={img1} alt="my-image" /> */}
         </div>
       </div>
     </div>
