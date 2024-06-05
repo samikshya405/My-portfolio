@@ -1,8 +1,24 @@
-.landing{
-    width: 100%;
-    min-height:90vh ;
-    
-    
-     /* background-color: var(--primary-color); */
+.landing {
+  width: 100%;
+  min-height: 90vh;
 
-} 
+  /* background-color: var(--primary-color); */
+}
+.arrow {
+    animation: bounce 2s ease-in-out infinite;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+ 
+}
+
+@keyframes bounce {
+    0% {
+      transform: translateY(-10px);
+    }
+    50% {
+      transform: translateY(10px);
+    }
+    100% {
+      transform: translateY(-10px);
+    }
+  }
