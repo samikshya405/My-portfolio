@@ -5,6 +5,9 @@
 .banner {
   width: 100%;
   min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .content {
@@ -70,6 +73,8 @@ button {
 @media screen and (max-width: 776px) {
   .banner {
     flex-direction: column-reverse;
+    justify-content: center;
+    gap: 20px;
 
     text-align: center;
     margin-top: 10px;
