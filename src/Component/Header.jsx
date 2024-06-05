@@ -14,7 +14,7 @@ const Header = ({ brightNess, setBrightNess }) => {
     <Navbar
       expand="lg"
       variant="dark"
-      className="sticky-top nav-menu"
+     
       style={{ background: brightNess ? "white" : "var(--primary-color)" }}
       expanded={expanded}
     >
@@ -47,12 +47,13 @@ const Header = ({ brightNess, setBrightNess }) => {
         <Navbar.Toggle
           aria-controls="basic-navbar-nav"
           onClick={handleNavbarToggle}
+          color="black"
         />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto ">
             <Nav.Link
               href="#home"
-              className={`menu ${brightNess ? "lightMode" : "darkMode"}`}
+              className={`menu fw-bold ${brightNess ? "lightMode" : "darkMode"}`}
               aria-controls="basic-navbar-nav"
               onClick={handleNavbarToggle}
             >
@@ -60,14 +61,14 @@ const Header = ({ brightNess, setBrightNess }) => {
             </Nav.Link>
             <Nav.Link
               href="#skill"
-              className={`menu ${brightNess ? "lightMode" : "darkMode"}`}
+              className={`menu fw-bold ${brightNess ? "lightMode" : "darkMode"}`}
               onClick={handleNavbarToggle}
             >
               Skills
             </Nav.Link>
             <Nav.Link
               href="#project"
-              className={`menu ${brightNess ? "lightMode" : "darkMode"}`}
+              className={`menu fw-bold ${brightNess ? "lightMode" : "darkMode"}`}
               onClick={handleNavbarToggle}
             >
               Project
@@ -75,14 +76,14 @@ const Header = ({ brightNess, setBrightNess }) => {
 
             <Nav.Link
               href="#about"
-              className={`menu ${brightNess ? "lightMode" : "darkMode"}`}
+              className={`menu fw-bold ${brightNess ? "lightMode" : "darkMode"}`}
               onClick={handleNavbarToggle}
             >
               About
             </Nav.Link>
             <Nav.Link
               href="#contact"
-              className={`menu ${brightNess ? "lightMode" : "darkMode"}`}
+              className={`menu fw-bold ${brightNess ? "lightMode" : "darkMode"}`}
               onClick={handleNavbarToggle}
             >
               Contact

@@ -7,7 +7,7 @@ import { FaRegCopyright } from "react-icons/fa";
 const Contact = ({brightNess}) => {
   return (
     <Container className=' contact' style={{color:brightNess ? "black":'white'}} id='contact'>
-            <h1 className='text-center custom-color py-5 my-5'>Contact</h1>
+            <h1 className='text-center custom-color mb-5'>Contact</h1>
           
             <div className='contact-box'>
                 <a href='mailto: Samikshyakharel405@gmail.com' className='text-decoration-none  shadow-lg p-3' style={{color:'inherit'}}><BiLogoGmail size={40} color='#0b66c2' /> SamikshyaKharel405@gmail.com</a>
@@ -19,7 +19,7 @@ const Contact = ({brightNess}) => {
                     <Github size={40} color='orange'/>
                   </a></div>
             </div>
-            <div className='text-center pt-4 '><FaRegCopyright/>Copyright 2024. Made by Samikshya Kharel</div> 
+            <div className='text-center pt-4 pb-2 '><FaRegCopyright/>Copyright 2024. Made by Samikshya Kharel</div> 
             
     </Container>
   )

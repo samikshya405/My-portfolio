@@ -10,7 +10,7 @@ const Banner = () => {
       <div className="d-flex align-items-center justify-content-between  banner">
         <div className="d-flex flex-column gap-3 content">
           {/* <h3 className="custom-color">Hello !</h3> */}
-          <h1>Front-end React Developer</h1>
+          <h1 className="title">Front-end React Developer</h1>
 
           <p>
             I'm a Samikshya Kharel. A dedicated frontend developer on a mission

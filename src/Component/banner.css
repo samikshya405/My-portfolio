@@ -12,9 +12,12 @@
   flex-basis: 50%;
   z-index: 99;
 }
+/* .title{
+  color: var(--btn-color);
+} */
 .img-container {
   
-  animation: morph 8s ease-in-out infinite;
+  animation: morph 6s ease-in-out infinite;
     background-image: url(/src/assets/photo.jpeg);
     background-position: 50%;
     background-repeat: no-repeat;

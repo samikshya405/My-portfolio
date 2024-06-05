@@ -1,6 +1,6 @@
-.contact{
+/* .contact{
     min-height: 60vh;
-}
+} */
 .contact-box{
     display: grid;
     grid-template-columns: 1fr 1fr;
