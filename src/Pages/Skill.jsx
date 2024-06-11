@@ -3,8 +3,10 @@ import { Container } from 'react-bootstrap'
 import './skill.css'
 import { FaHtml5,FaCss3Alt, FaReact, FaBootstrap ,FaSass, FaGitAlt  } from "react-icons/fa";
 import { IoLogoJavascript, IoLogoFirebase, IoBug  } from "react-icons/io5";
-import { SiRedux, SiTailwindcss, SiTestinglibrary, SiTypescript } from "react-icons/si";
+// import { SiRedux, SiTailwindcss, SiTestinglibrary, SiTypescript } from "react-icons/si";
 import { TbSeo } from "react-icons/tb";
+import { SiExpress, SiNextdotjs, SiRedux, SiTailwindcss, SiTestinglibrary, SiTypescript } from "react-icons/si";
+import { DiMongodb, DiNodejs } from "react-icons/di";
 const Skill = ({brightNess}) => {
   return (
     <Container className='skills ' style={{color:brightNess ? "black":'white'}} id='skill'>
@@ -115,7 +117,42 @@ const Skill = ({brightNess}) => {
           <p className='text-center py-2'>Tailwind CSS</p>
 
           </div>
+          <div>
+          <div className=' py-4 shadow-lg box'>
+          <DiNodejs size={60} color='green'/>
+
+          </div>
+          <p className='text-center py-2'>Node js</p>
+
+          </div>
+          <div>
+          <div className=' py-4 shadow-lg box'>
+          <SiExpress size={60} color='black'/>
+
+          </div>
+          <p className='text-center py-2'>Express</p>
+
+          </div>
+          <div>
+          <div className=' py-4 shadow-lg box'>
+          <DiMongodb size={60} color='darkgreen'/>
+
+          </div>
+          <p className='text-center py-2'>Mongo DB</p>
+
+          </div>
+          <div>
+          <div className=' py-4 shadow-lg box'>
+          <SiNextdotjs size={60} color='black'/>
+
+          </div>
+          <p className='text-center py-2'>Next JS</p>
+
+          </div>
+
           
+          
+
          
         </div>
     </Container>

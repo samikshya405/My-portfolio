@@ -10,11 +10,11 @@ const Banner = () => {
       <div className="  banner">
         <div className="d-flex flex-column gap-3 content">
           {/* <h3 className="custom-color">Hello !</h3> */}
-          <h1 className="title">Front-End React Developer</h1>
+          <h1 className="title">Full Stack Developer</h1>
 
           <p>
-            I'm a Samikshya Kharel. A dedicated frontend developer on a mission
-            to create seamless and visually stunning web experiences.
+            I'm Samikshya Kharel. A passionate full-stack developer committed to
+            crafting robust and user-centric web solutions from end to end.
           </p>
           {/* <div className=" info ">
             <button>Check My CV</button>
