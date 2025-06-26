@@ -81,7 +81,7 @@ const Header = ({ brightNess, setBrightNess }) => {
             >
               Project
             </Nav.Link>
-            <Nav.Link
+            {/* <Nav.Link
               as={Link}
               to="/blog"
               className={`menu fw-bold ${
@@ -90,7 +90,7 @@ const Header = ({ brightNess, setBrightNess }) => {
               onClick={handleNavbarToggle}
             >
               Blog
-            </Nav.Link>
+            </Nav.Link> */}
 
             <Nav.Link
               href="#about"
